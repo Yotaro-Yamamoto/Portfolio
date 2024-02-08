@@ -239,7 +239,7 @@ a {
     background-color: var(--dark_text);
     color: var(--navy-black);
   }
-  #contact dt {
+  form dt {
     color: var(--dark-txt);
   }
 }
