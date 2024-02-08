@@ -239,6 +239,9 @@ a {
     background-color: var(--dark_text);
     color: var(--navy-black);
   }
+  dt {
+    color: var(--dark-txt);
+  }
 }
 /* Phone Size */
 @media (max-width: 600px) {
