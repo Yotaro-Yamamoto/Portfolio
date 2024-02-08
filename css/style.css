@@ -239,7 +239,7 @@ a {
     background-color: var(--dark_text);
     color: var(--navy-black);
   }
-  form dt {
+  form dl dt {
     color: var(--dark-txt);
   }
 }
