@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="description" content="山本陽太朗 ポートフォリオ">
+    <link rel="icon" type="image/svg+xml" href="img/favicon02.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+    <!-- 外部フォントリンク -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=M+PLUS+Rounded+1c:wght@500&family=Zen+Old+Mincho&display=swap"
+        rel="stylesheet">
+
+    <!--  JS 表作成 ライブラリ -->
+    <rink rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+        <!-- JS Lightbox ライブラリ -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous-basic.min.css">
+        <!-- JavaScript フェードアップ アニメーション -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+        <!-- CSS -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <!-- FontAwesome -->
+        <script src="https://kit.fontawesome.com/1a4e68db2e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h2 class="site-title"><a href="index.html">Portfolio</a></h2>
+        <nav>
+            <ul class="top-menu">
+                <li class="side-btn"><a href="#about-me">筆者について<br><small>About me</small></a></li>
+                <li class="side-btn"><a href="#achieve">学習実績<br><small>Achievement</small></a></li>
+                <li class="side-btn"><a href="#contact">お問い合わせ<br><small>Contact</small></a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mainvisual">
+        <picture>
+            <source media="(max-width: 600px)" srcset="img/mainvisual02.png">
+            <img src="img/mainvisual02.png" alt="ポートフォリオ＿メインビジュアル">
+        </picture>
+    </div>
+    <section id="about-me" class="wrapper">
+        <h2 class="sec-title"><i class="fa-solid fa-question"></i> 筆者について<br><small>About me</small></h2>
+        <p>筆者は、1998年生まれのZ世代。高校生の時に行ったコンピュータを使った実験を皮切りにコンピュータに興味を持ち、</p>
+        <p>C言語を大学の講義で学び、Javaを企業の研修で、Python、JavaScript、TypeScript、HTML/CSSを独学で会得しました。</p>
+        <p>
+            前職ではJavaとSpring Framework、TypeScriptを使ったWebアプリケーション開発業務に携わりました。
+        </p>
+        <img src="img/book_shelf.png" alt="図書館">
+    </section>
+    <section id="achieve" class="wrapper">
+        <h2 class="sec-title"><i class="fa-solid fa-chalkboard"></i> 学習実績<br><small>Achievement</small></h2>
+        <div class="achive-block">
+            <div class="lang">
+                <table>
+                    <tr>
+                        <th class="achive-title">言語</th>
+                        <td>Java</td>
+                        <td>JavaScript</td>
+                        <td>TypeScript</td>
+                        <td>Python</td>
+                        <td>VBA</td>
+                    </tr>
+                </table>
+                <!--<img src="img/lang-back02.jpg" alt="言語">-->
+            </div>
+            <div class="framework">
+                <div class="stripe"></div>
+                <table>
+                    <tr>
+                        <th class="achive-title">フレームワーク</th>
+                        <td>Spring Framework(Java)</td>
+                        <td>Django(Python)</td>
+                        <td>React(TypeScript)</td>
+                        <td>Angular(TypeScript)</td>
+                    </tr>
+                </table>
+                <!--<img src="img/framework.jpg" alt="フレームワーク">-->
+            </div>
+            <div class="env">
+                <table>
+                    <tr>
+                        <th class="achive-title">開発環境</th>
+                        <td>Visual Studio Code</td>
+                        <td>Eclipse</td>
+                        <td>Linux</td>
+                    </tr>
+                </table>
+                <!--<img src="img/dev-env.jpg" alt="開発環境">-->
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="wrapper">
+        <h2 class="sec-title"><i class="fa-solid fa-inbox"></i> お問い合わせ<br><small>Contact</small></h2>
+        <form action="#" method="post">
+            <dl>
+                <dt><label for="namee">NAME</label></dt>
+                <dd><input type="text" id="name" name="your-name" placeholder="山田 太郎 / Taro Yamada"></dd>
+                <dt><label for="email">E-mail</label></dt>
+                <dd><input type="e-mail" placeholder="example@example.com"></dd>
+                <dt><label for="message">Message</label></dt>
+                <dd><textarea type="text" id="message" name="your-message" placeholder="English Welcome!"></textarea></dd>
+            </dl>
+            <div class="button"><input type="submit" value="送信/Submit"></div>
+        </form>
+    </section>
+    <footer>
+        <p><small>&copy; 2024 Yotaro Yamamoto</small></p>
+    </footer>
+    <!-- JavaScript -->
+    <!--  表作成-->
+    <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+    <!-- Lightbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
+    <!-- JavaScriptアニメーション -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- 自作スクリプト -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
