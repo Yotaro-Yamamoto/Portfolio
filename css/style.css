@@ -240,7 +240,7 @@ a {
     color: var(--navy-black);
   }
   form dl dt {
-    color: var(--dark-txt);
+    color: var(--dark-text);
   }
 }
 /* Phone Size */
