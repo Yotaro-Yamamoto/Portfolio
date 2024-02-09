@@ -242,7 +242,7 @@ a {
     background-color: var(--dark_text);
     color: var(--navy-black);
   }
-  #for_mobile {
+  #for_mobile p {
     color: var(--dark_text);
   }
 }
