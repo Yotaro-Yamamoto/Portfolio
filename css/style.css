@@ -84,6 +84,9 @@ header li a:hover {
   background-color: var(--navy-black);
   color: var(--pure-white);
 }
+header li i {
+  font-size: 2rem;
+}
 
 .site-title {
   font-family: "Gurajada", sans-serif;
@@ -239,9 +242,6 @@ a {
     background-color: var(--dark_text);
     color: var(--navy-black);
   }
-  dt {
-    color: var(--dark_text);
-  }
 }
 /* Phone Size */
 @media (max-width: 600px) {
@@ -274,6 +274,10 @@ a {
   #achive table {
     display: flex;
     flex-direction: row;
+  }
+  /*FOR MOBILE*/
+  .for_mobile {
+    visibility: hidden;
   }
 }
 /*# sourceMappingURL=style.css.map */
