@@ -242,6 +242,9 @@ a {
     background-color: var(--dark_text);
     color: var(--navy-black);
   }
+  #for_mobile {
+    color: var(--dark_text);
+  }
 }
 /* Phone Size */
 @media (max-width: 600px) {
