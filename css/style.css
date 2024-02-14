@@ -210,6 +210,11 @@ nav ul {
   color: var(--navy-black);
 }
 
+/*FOR MOBILE*/
+#for_mobile img {
+  position: center;
+}
+
 /*Footer*/
 footer {
   text-align: center;
