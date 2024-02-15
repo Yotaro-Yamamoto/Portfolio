@@ -253,7 +253,7 @@ a {
     color: var(--pure-white);
   }
   #contact input{
-    border-radius: 1px solid var(--dark_text);
+    border: 1px solid var(--dark_text);
   }
   #for_mobile p {
     color: var(--pure-white);
