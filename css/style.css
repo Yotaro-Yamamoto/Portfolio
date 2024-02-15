@@ -249,6 +249,9 @@ a {
     background-color: var(--dark_text);
     color: var(--navy-black);
   }
+  #contact dt{
+    color: var(--dark_text);
+  }
   #for_mobile p {
     color: var(--dark_text);
   }
