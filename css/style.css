@@ -250,10 +250,10 @@ a {
     color: var(--navy-black);
   }
   #contact dt{
-    color: var(--dark_text);
+    color: var(--pure-white);
   }
   #for_mobile p {
-    color: var(--dark_text);
+    color: var(--pure-white);
   }
 }
 /* Phone Size */
